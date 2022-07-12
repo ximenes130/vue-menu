@@ -24,6 +24,24 @@ export default [
     image: 'https://source.unsplash.com/random/300%C3%97300/?dumpling',
   },
   {
+    title: 'Algodão Doce',
+    location: 'KIDs',
+    price: 4.00,
+    image: 'https://source.unsplash.com/random/300%C3%97300/?dumpling',
+  },
+  {
+    title: 'Bazar',
+    location: 'KIDs',
+    price: 0.00,
+    image: 'https://source.unsplash.com/random/300%C3%97300/?dumpling',
+  },
+  {
+    title: 'Brinquedos Infantis',
+    location: 'KIDs',
+    price: 15.00,
+    image: 'https://source.unsplash.com/random/300%C3%97300/?dumpling',
+  },
+  {
     title: 'Canjica',
     location: 'ALIANÇA',
     price: 7.00,
@@ -32,7 +50,19 @@ export default [
   {
     title: 'Bebidas',
     location: 'LOUVOR',
-    price: 999.00,
+    price: 3.00,
+    image: 'https://source.unsplash.com/random/300%C3%97300/?soda',
+  },
+  {
+    title: 'Bebidas',
+    location: 'LOUVOR',
+    price: 4.00,
+    image: 'https://source.unsplash.com/random/300%C3%97300/?soda',
+  },
+  {
+    title: 'Bebidas',
+    location: 'LOUVOR',
+    price: 6.00,
     image: 'https://source.unsplash.com/random/300%C3%97300/?soda',
   },
   {
@@ -62,20 +92,14 @@ export default [
   {
     title: 'Churrasquinho',
     location: 'STRONG',
-    price: 9999.00,
+    price: 8.00,
     image: 'https://source.unsplash.com/random/300%C3%97300/?barbecue',
   },
   {
     title: 'Caldos',
     location: 'MOBILIZE',
-    price: 9999.00,
+    price: 6.00,
     image: 'https://source.unsplash.com/random/300%C3%97300/?food',
-  },
-  {
-    title: 'Milho',
-    location: 'JUAD',
-    price: 4.00,
-    image: 'https://source.unsplash.com/random/300%C3%97300/?corn',
   },
   {
     title: 'Doces',
@@ -97,8 +121,8 @@ export default [
   },
   {
     title: 'Pamonha',
-    location: '???',
-    price: 9999.00,
+    location: 'Dênio e Naiara',
+    price: 6.00,
     image: 'https://source.unsplash.com/random/300%C3%97300/?corn',
   },
   {
@@ -124,11 +148,5 @@ export default [
     location: 'JUAD',
     price: 9999.00,
     image: 'https://source.unsplash.com/random/300%C3%97300/?fish',
-  },
-  {
-    title: 'Bazar',
-    location: '???',
-    price: 9999.00,
-    image: 'https://source.unsplash.com/random/300%C3%97300/?clothing',
   },
 ]
