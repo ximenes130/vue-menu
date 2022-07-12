@@ -39,7 +39,7 @@ const linksList = [
   {
     label: 'favoritos',
     name: 'favoritos',
-    icon: 'favorites',
+    icon: 'favorite',
     to: '/menu/favoritos'
   },
   {
