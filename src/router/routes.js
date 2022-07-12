@@ -4,7 +4,9 @@ const routes = [
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') }
+      { path: '', redirect: '/menu' },
+      { path: '/menu', component: () => import('pages/MenuPage.vue') },
+      { path: '/menu/favoritos', meta: { favorite: true }, component: () => import('pages/MenuPage.vue') },
     ]
   },
 

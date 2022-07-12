@@ -40,7 +40,7 @@ const linksList = [
     label: 'favoritos',
     name: 'favoritos',
     icon: 'favorites',
-    to: '#!'
+    to: '/menu/favoritos'
   },
   {
     label: 'pagamento',
